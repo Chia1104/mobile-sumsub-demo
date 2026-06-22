@@ -1,0 +1,25 @@
+services:
+  postgres:
+    container_name: mobile-sumsub-demo-postgres
+    image: pgvector/pgvector:pg18
+    ports:
+      - "5433:5432"
+    volumes:
+      - mobile-sumsub-demo-postgres:/var/lib/postgresql/data/pgdata
+    env_file:
+      - .env.global
+    environment:
+      - PGDATA=/var/lib/postgresql/data/pgdata
+      - DEBUG=true
+
+  redis:
+    container_name: mobile-sumsub-demo-redis
+    image: redis:alpine
+    ports:
+      - "6380:6379"
+    volumes:
+      - mobile-sumsub-demo-redis:/data
+
+volumes:
+  mobile-sumsub-demo-postgres:
+  mobile-sumsub-demo-redis:

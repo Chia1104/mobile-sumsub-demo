@@ -1,0 +1,15 @@
+{
+  "language": {
+    "en": "English",
+    "zh": "繁體中文"
+  },
+  "error": {
+    "default": {
+      "title": "Oops! Something went wrong",
+      "description": "We're sorry, but something went wrong. Please try again later."
+    }
+  },
+  "actions": {
+    "retry": "Retry"
+  }
+}

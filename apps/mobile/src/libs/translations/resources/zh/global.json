@@ -1,0 +1,15 @@
+{
+  "language": {
+    "en": "English",
+    "zh": "繁體中文"
+  },
+  "error": {
+    "default": {
+      "title": "Oops! 發生錯誤",
+      "description": "我們很抱歉，但發生了錯誤。請稍後再試。"
+    }
+  },
+  "actions": {
+    "retry": "重試"
+  }
+}

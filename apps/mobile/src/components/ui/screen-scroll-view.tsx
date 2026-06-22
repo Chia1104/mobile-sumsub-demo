@@ -1,0 +1,45 @@
+import type { FC, PropsWithChildren } from "react";
+import type { ScrollViewProps } from "react-native";
+import { Platform, ScrollView } from "react-native";
+
+import { cn } from "heroui-native";
+import type { AnimatedProps } from "react-native-reanimated";
+import Animated from "react-native-reanimated";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
+
+import useHeaderHeight from "@/hooks/use-header-height";
+
+const AnimatedScrollView = Animated.createAnimatedComponent(ScrollView);
+
+interface Props extends AnimatedProps<ScrollViewProps> {
+  className?: string;
+  contentContainerClassName?: string;
+}
+
+export const ScreenScrollView: FC<PropsWithChildren<Props>> = ({
+  children,
+  className,
+  contentContainerClassName,
+  contentContainerStyle,
+  ...props
+}) => {
+  const insets = useSafeAreaInsets();
+  const headerHeight = useHeaderHeight();
+  return (
+    <AnimatedScrollView
+      className={cn(className)}
+      contentContainerClassName={cn(contentContainerClassName)}
+      contentContainerStyle={[
+        {
+          flexGrow: 1,
+          paddingTop: Platform.OS === "ios" ? headerHeight : 0,
+          paddingBottom: insets.bottom + 32,
+        },
+        contentContainerStyle,
+      ]}
+      showsVerticalScrollIndicator={false}
+      {...props}>
+      {children}
+    </AnimatedScrollView>
+  );
+};
