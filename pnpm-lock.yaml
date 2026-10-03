@@ -67,8 +67,8 @@ catalogs:
       version: 1.0.0-rc.3
   heroui:
     '@heroui-pro/react':
-      specifier: 1.0.0-beta.6
-      version: 1.0.0-beta.6
+      specifier: 1.0.0-beta.10
+      version: 1.0.0-beta.10
     '@heroui/react':
       specifier: 3.2.1
       version: 3.2.1
@@ -293,7 +293,7 @@ importers:
         version: 5.2.14(74157a7b5178ef397eab323673ba12f8)
       '@heroui-pro/react':
         specifier: catalog:heroui
-        version: 1.0.0-beta.6
+        version: 1.0.0-beta.10
       '@hookform/resolvers':
         specifier: catalog:ui
         version: 5.4.0(react-hook-form@7.80.0(react@19.2.7))(zod@4.4.3)
@@ -1993,8 +1993,8 @@ packages:
     peerDependencies:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
 
-  '@heroui-pro/react@1.0.0-beta.6':
-    resolution: {integrity: sha512-wejAgZdTvccsCLgIpRJNE9ovbkC5qo9rX97e5Leb7nlaHU6Bg+0b2Sx9dbhkUQQqLLhsppBjrWDAlnItauZkdQ==}
+  '@heroui-pro/react@1.0.0-beta.10':
+    resolution: {integrity: sha512-3Vxf4m72WyjG1RIMtSlAn8ZNs//JtEZBUXUbki5Xo23InOdgukY/nEYGqPWLKoSIUrXx1ZH6ykNJXyhIUut1xg==}
 
   '@heroui/react@3.2.1':
     resolution: {integrity: sha512-dEwOFHd2I199dm6nXynK96xeqeQZH2zcFlY8BaoqAjNNvVg24X4/dFua8GuayD2KS6FNX65/2BQhlxiV3ByFrQ==}
@@ -4700,10 +4700,12 @@ packages:
   '@xmldom/xmldom@0.8.13':
     resolution: {integrity: sha512-KRYzxepc14G/CEpEGc3Yn+JKaAeT63smlDr+vjB8jRfgTBBI9wRj/nkQEO+ucV8p8I9bfKLWp37uHgFrbntPvw==}
     engines: {node: '>=10.0.0'}
+    deprecated: this version has critical issues, please update to the latest version
 
   '@xmldom/xmldom@0.9.10':
     resolution: {integrity: sha512-A9gOqLdi6cV4ibazAjcQufGj0B1y/vDqYrcuP6d/6x8P27gRS8643Dj9o1dEKtB6O7fwxb2FgBmJS2mX7gpvdw==}
     engines: {node: '>=14.6'}
+    deprecated: this version has critical issues, please update to the latest version
 
   '@yarnpkg/lockfile@1.1.0':
     resolution: {integrity: sha512-GpSwvyXOcOOlV70vbnzjj4fW5xW/FdUF6nQEt1ENy7m4ZCczi1+/buVUPAqmGfqznsORNFzUMjctTIp8a9tuCQ==}
@@ -11021,7 +11023,7 @@ snapshots:
     dependencies:
       graphql: 16.14.2
 
-  '@heroui-pro/react@1.0.0-beta.6':
+  '@heroui-pro/react@1.0.0-beta.10':
     dependencies:
       chalk: 5.6.2
       heroui-pro: 1.0.0-beta.12
