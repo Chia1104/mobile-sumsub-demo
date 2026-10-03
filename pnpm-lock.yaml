@@ -26,8 +26,8 @@ catalogs:
       specifier: 25.9.3
       version: 25.9.3
     better-all:
-      specifier: 0.0.7
-      version: 0.0.7
+      specifier: 0.0.9
+      version: 0.0.9
     bignumber.js:
       specifier: ^11.1.1
       version: 11.1.4
@@ -582,7 +582,7 @@ importers:
         version: 0.13.11(typescript@6.0.3)(zod@4.4.3)
       better-all:
         specifier: 'catalog:'
-        version: 0.0.7
+        version: 0.0.9
       dayjs:
         specifier: 'catalog:'
         version: 1.11.21
@@ -4700,10 +4700,12 @@ packages:
   '@xmldom/xmldom@0.8.13':
     resolution: {integrity: sha512-KRYzxepc14G/CEpEGc3Yn+JKaAeT63smlDr+vjB8jRfgTBBI9wRj/nkQEO+ucV8p8I9bfKLWp37uHgFrbntPvw==}
     engines: {node: '>=10.0.0'}
+    deprecated: this version has critical issues, please update to the latest version
 
   '@xmldom/xmldom@0.9.10':
     resolution: {integrity: sha512-A9gOqLdi6cV4ibazAjcQufGj0B1y/vDqYrcuP6d/6x8P27gRS8643Dj9o1dEKtB6O7fwxb2FgBmJS2mX7gpvdw==}
     engines: {node: '>=14.6'}
+    deprecated: this version has critical issues, please update to the latest version
 
   '@yarnpkg/lockfile@1.1.0':
     resolution: {integrity: sha512-GpSwvyXOcOOlV70vbnzjj4fW5xW/FdUF6nQEt1ENy7m4ZCczi1+/buVUPAqmGfqznsORNFzUMjctTIp8a9tuCQ==}
@@ -5002,8 +5004,8 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
 
-  better-all@0.0.7:
-    resolution: {integrity: sha512-xgdUMWb88Qhz6RtC/PY/7QtR61K/JabCcbKhNYYuXC/IoY3c/bgYdIjVxyTHXR41KP8JQeP+6dg4zH4KOpwJzw==}
+  better-all@0.0.9:
+    resolution: {integrity: sha512-RTddaak6W8VR6/SBVTzyCGEQBCkm0uMSRfQ+AvMAHxoYlZISjr1bKelXK+lFmde6GFlAFdl78XU9LYYCKw0eyg==}
 
   big-integer@1.6.52:
     resolution: {integrity: sha512-QxD8cf2eVqJOOz63z6JIN9BzvVs/dlySa5HGSBH5xtR8dPteIRQnBxxKqkNTiT6jbDTF6jAfrd4oMcND9RGbQg==}
@@ -14122,7 +14124,7 @@ snapshots:
 
   baseline-browser-mapping@2.10.38: {}
 
-  better-all@0.0.7: {}
+  better-all@0.0.9: {}
 
   big-integer@1.6.52: {}
 
