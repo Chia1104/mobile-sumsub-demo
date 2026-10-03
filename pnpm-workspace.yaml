@@ -12,8 +12,8 @@ allowBuilds:
   sqlite3: false
 
 catalog:
-  '@internationalized/date': ^3.12.2
-  '@internationalized/number': ^3.6.7
+  '@internationalized/date': ^3.12.4
+  '@internationalized/number': ^3.6.8
   '@t3-oss/env-core': ^0.13.11
   '@types/node': 25.9.3
   better-all: 0.0.7
