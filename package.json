@@ -45,7 +45,7 @@
   "devDependencies": {
     "@chiastack/oxlint": "catalog:chiastack",
     "@manypkg/cli": "^0.25.1",
-    "@playwright/test": "^1.60.0",
+    "@playwright/test": "^1.63.0",
     "@total-typescript/ts-reset": "0.6.1",
     "@turbo/gen": "^2.9.18",
     "@vitest/coverage-v8": "catalog:testing-library",
