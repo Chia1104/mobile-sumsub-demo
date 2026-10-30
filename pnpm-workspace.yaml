@@ -42,7 +42,7 @@ catalogs:
     '@heroui/styles': 3.2.1
     '@heroui-pro/react': 1.0.0-beta.6
     'heroui-native': ^1.0.4
-    'heroui-native-pro': 1.0.0-beta.5
+    'heroui-native-pro': 1.0.0-beta.12
   orpc:
     '@orpc/client': 1.13.4
     '@orpc/contract': 1.14.5
