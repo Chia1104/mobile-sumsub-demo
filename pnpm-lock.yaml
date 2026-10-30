@@ -79,8 +79,8 @@ catalogs:
       specifier: ^1.0.4
       version: 1.0.4
     heroui-native-pro:
-      specifier: 1.0.0-beta.5
-      version: 1.0.0-beta.5
+      specifier: 1.0.0-beta.12
+      version: 1.0.0-beta.12
   orpc:
     '@orpc/client':
       specifier: 1.13.4
@@ -443,7 +443,7 @@ importers:
         version: 1.0.4(bba6ce882bd3e092985fa91ecf09f2fa)
       heroui-native-pro:
         specifier: catalog:heroui
-        version: 1.0.0-beta.5
+        version: 1.0.0-beta.12
       i18next:
         specifier: catalog:ui
         version: 26.3.1(typescript@6.0.3)
@@ -4700,10 +4700,12 @@ packages:
   '@xmldom/xmldom@0.8.13':
     resolution: {integrity: sha512-KRYzxepc14G/CEpEGc3Yn+JKaAeT63smlDr+vjB8jRfgTBBI9wRj/nkQEO+ucV8p8I9bfKLWp37uHgFrbntPvw==}
     engines: {node: '>=10.0.0'}
+    deprecated: this version has critical issues, please update to the latest version
 
   '@xmldom/xmldom@0.9.10':
     resolution: {integrity: sha512-A9gOqLdi6cV4ibazAjcQufGj0B1y/vDqYrcuP6d/6x8P27gRS8643Dj9o1dEKtB6O7fwxb2FgBmJS2mX7gpvdw==}
     engines: {node: '>=14.6'}
+    deprecated: this version has critical issues, please update to the latest version
 
   '@yarnpkg/lockfile@1.1.0':
     resolution: {integrity: sha512-GpSwvyXOcOOlV70vbnzjj4fW5xW/FdUF6nQEt1ENy7m4ZCczi1+/buVUPAqmGfqznsORNFzUMjctTIp8a9tuCQ==}
@@ -6495,8 +6497,8 @@ packages:
   hermes-parser@0.35.0:
     resolution: {integrity: sha512-9JLjeHxBx8T4CAsydZR49PNZUaix+WpQJwu9p2010lu+7Kwl6D/7wYFFJxoz+aXkaaClp9Zfg6W6/zVlSJORaA==}
 
-  heroui-native-pro@1.0.0-beta.5:
-    resolution: {integrity: sha512-XiNvCLvLA9eaMOtI6Pjch8BLIiNH0A7iJVBKxZZkd+1rHn6P3fjt2bWPkQAAQwI2yGGSmIJMz1zx4BQUEFV/uA==}
+  heroui-native-pro@1.0.0-beta.12:
+    resolution: {integrity: sha512-XFVxeYtOVMnidSbkhnWh7Fp7Q+lo/f7gBNWek2QA+TM4NgZgIWGF99af9ao/m6NBG/otjW/d+9f1/7zJDR3MgA==}
 
   heroui-native@1.0.4:
     resolution: {integrity: sha512-XujbUhZNtUVv8bZSAgdjUstLB+p3kggK53FIfXXafLRVTcrq1VbwRcS1Cd1ijNOKPPF6Xqr+5W2n4fFV/U0wAw==}
@@ -15563,7 +15565,7 @@ snapshots:
     dependencies:
       hermes-estree: 0.35.0
 
-  heroui-native-pro@1.0.0-beta.5:
+  heroui-native-pro@1.0.0-beta.12:
     dependencies:
       chalk: 5.6.2
       heroui-pro: 1.0.0-beta.12
